@@ -21,6 +21,10 @@
     {
         font-size: 80.25%;
     }
+    .navigation
+    {
+        padding: 0 3rem;
+    }
 }
 
 @media (max-width: 59em)
@@ -113,14 +117,16 @@
         opacity: 0;
         pointer-events: none;
         visibility: hidden;
-
+        display: none;
     }
     .nav-open .main-nav
     {
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
+        z-index: 1;
         transform: translateX(0);
+        display: flex;
     }
     .nav-open .icon-mobile-nav[name="close-outline"]
     {
@@ -146,6 +152,10 @@
     html
     {
         font-size: 70%;
+    }
+    body
+    {
+        width: 100vh;
     }
     .section-4-cards 
     {
@@ -225,6 +235,7 @@
     {
         font-size: 50%;
     }
+    
     .navigation img
     {
         height: 20px;
@@ -386,5 +397,16 @@
     .footer-2
     {
         font-size: 1.4rem;
+    }
+    .section-6-cards
+    {
+        padding: 0 21rem;
+    }
+}
+@media (Max-width: 24.437em)
+{
+    .section-7-content .icon
+    {
+        margin-right: 84rem;
     }
 }

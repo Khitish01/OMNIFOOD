@@ -37,6 +37,10 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+    background-color: #fdf2e9;
+    height: 9rem;
+    padding: 0 4rem;
+    position: relative;
 }
 
 .nav-link {
@@ -51,11 +55,13 @@ body {
     color: #000000;
     font-size: 20px;
     font-weight: 600;
+    transition: all 0.3s;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:active {
     color: #e67e22;
 }
+
 
 .btn {
     border: none;
@@ -214,7 +220,7 @@ body {
 }
 
 .section-3-heading {
-    margin-left: 6rem;
+    margin: 0 6rem;
 }
 
 .section-3-header-1 {
