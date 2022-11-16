@@ -1,107 +1,98 @@
-@media (max-width: 84em)
-{
-    .main
-    {
+@media (max-width: 84em) {
+    .main {
         max-width: 120rem;
     }
 
-    .heading-content
-    {
+    .heading-content {
         font-size: 2.8rem;
     }
-    .img-gallery
-    {
-        grid-template-columns: repeat(2,1fr);
+
+    .img-gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 75em)
-{
-    html
-    {
+@media (max-width: 75em) {
+    html {
         font-size: 80.25%;
     }
-    .navigation
-    {
+
+    .navigation {
         padding: 0 3rem;
     }
 }
 
-@media (max-width: 59em)
-{
-    html
-    {
+@media (max-width: 59em) {
+    html {
         font-size: 60%;
     }
-    .main
-    {
+
+    .main {
         grid-template-columns: 1fr;
 
     }
-    .section-1-container
-    {
+
+    .section-1-container {
         text-align: center;
     }
-    .heading-content
-    {
+
+    .heading-content {
         font-size: 3.5rem;
     }
-    .content
-    {
+
+    .content {
         font-size: 2rem;
     }
-    .customer
-    {
+
+    .customer {
         justify-content: center;
     }
-    .customers-img img
-    {
+
+    .customers-img img {
         height: 5rem;
         width: 5rem;
     }
-    .delivery-info   
-    {
+
+    .delivery-info {
         font-size: 2rem;
     }
-    .main-img
-    {
+
+    .main-img {
         text-align: center;
     }
-    .main-page-img
-    {
+
+    .main-page-img {
         width: 60%;
     }
 
-    .section-5
-    {
+    .section-5 {
         display: grid;
         grid-template-columns: 1fr;
 
     }
-    .testimonial-1 
-    {
+
+    .testimonial-1 {
         width: 39rem;
     }
+
     .img-gallery {
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .btn
-    {
+    .btn {
         font-size: 13px;
     }
 
 
 
 
-    .btn-mobile-nav
-    {
+    .btn-mobile-nav {
         display: block;
         z-index: 9999;
     }
-    .main-nav
-    {
-        background-color: rgba(255,255,255,0.9);
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.9);
         /* -webkit-backdrop-filter: blur(5px); */
         backdrop-filter: blur(10px);
         position: absolute;
@@ -119,8 +110,8 @@
         visibility: hidden;
         display: none;
     }
-    .nav-open .main-nav
-    {
+
+    .nav-open .main-nav {
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
@@ -128,285 +119,296 @@
         transform: translateX(0);
         display: flex;
     }
-    .nav-open .icon-mobile-nav[name="close-outline"]
-    {
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
         display: block;
     }
-    .nav-open .icon-mobile-nav[name="menu-outline"]
-    {
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
         display: none;
     }
-    .nav-list
-    {
+
+    .nav-list {
         flex-direction: column;
         gap: 4rem;
     }
-    .nav-link:link , .nav-link:visited
-    {
+
+    .nav-link:link,
+    .nav-link:visited {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 50em)
-{
-    html
-    {
+@media (max-width: 50em) {
+    html {
         font-size: 70%;
     }
-    body
-    {
+
+    body {
         width: 100vh;
     }
-    .section-4-cards 
-    {
+
+    .section-4-cards {
         grid-template-columns: repeat(2, 1fr);
     }
-    .section-4-third-card
-    {
+
+    .section-4-third-card {
         grid-column: 1/-1;
         justify-content: center;
         margin-left: 20rem;
     }
-    .testimonial-1 
-    {
+
+    .testimonial-1 {
         width: 28rem;
     }
-    .section-6-cards-content 
-    {
+
+    .section-6-cards-content {
         height: 38rem;
         padding: 2rem 0rem;
     }
-    .card-2::after
-    {
+
+    .card-2::after {
         left: 13rem;
     }
+
     .section-7 {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 8rem;
         row-gap: 6rem;
     }
+
     .section-7-content .icon-1 {
         margin-right: 17rem;
     }
+
     .section-7-content .icon-2 {
         margin-right: 16.5rem;
     }
+
     .section-7-content .icon-3 {
         margin-right: 17rem;
     }
+
     .section-7-content .icon-4 {
         margin-right: 16.5rem;
     }
+
     .section-8-form {
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
+
     .section-8-container {
         grid-template-columns: 3fr 2fr;
     }
-    .section-9
-    {
+
+    .section-9 {
         display: grid;
-        grid-template-columns: repeat(6,1fr);
+        grid-template-columns: repeat(6, 1fr);
         column-gap: 4rem;
     }
-    .footer-1, .footer-2
-    {
+
+    .footer-1,
+    .footer-2 {
         grid-column: span 3;
     }
-    .about
-    {
+
+    .about {
         grid-row: 1;
         grid-column: span 2;
         margin-bottom: 4rem;
 
     }
-    .footer-img
-    {
+
+    .footer-img {
         height: 25px;
         width: 200px;
     }
 }
 
-@media (max-width: 34em)
-{
-    html
-    {
+@media (max-width: 34em) {
+    html {
         font-size: 50%;
     }
-    
-    .navigation img
-    {
+
+    .navigation img {
         height: 20px;
         width: 150px;
     }
+
     .delivery-info {
         font-size: 1.8rem;
     }
-    .section-3-content
-    {
+
+    .section-3-content {
         grid-template-columns: 1fr;
     }
-    .screenshot:nth-child(2)
-    {
+
+    .screenshot:nth-child(2) {
         grid-row: 1;
     }
-    .screenshot:nth-child(6)
-    {
+
+    .screenshot:nth-child(6) {
         grid-row: 5;
     }
-    .section-3-text .para-1
-    {
+
+    .section-3-text .para-1 {
         font-size: 3.2rem;
     }
-    .section-3-text .para-2
-    {
+
+    .section-3-text .para-2 {
         font-size: 1.8rem;
     }
-    .section-4-content
-    {
+
+    .section-4-content {
         margin: 10rem 0;
     }
-    .section-4-starter
-    {
+
+    .section-4-starter {
         font-size: 1.4rem;
         margin-bottom: 2rem;
     }
-    .section-4-cards
-    {
+
+    .section-4-cards {
         grid-template-columns: 1fr;
     }
-    .card-content h1
-    {
+
+    .card-content h1 {
         font-size: 3.2rem;
     }
-    .card-content .info
-    {
+
+    .card-content .info {
         font-size: 2rem;
         margin: 4rem 0;
     }
-    .card-2-header .p1, .card-2-header .p2
-    {
+
+    .card-2-header .p1,
+    .card-2-header .p2 {
         font-size: 1.6rem;
         margin-bottom: 1.5rem;
     }
-    .card-1-header
-    {
+
+    .card-1-header {
         margin-right: 38rem;
         font-size: 1.6rem;
         margin-bottom: 1.5rem;
     }
-    .section-4-third-card
-    {
+
+    .section-4-third-card {
         margin-left: 17rem;
     }
-    .section-4-third-card-header
-    {
+
+    .section-4-third-card-header {
         font-size: 3.2rem !important;
     }
-    .section-4-list
-    {
+
+    .section-4-list {
         font-size: 2.3rem;
     }
-    .section-4-footer a
-    {
+
+    .section-4-footer a {
         font-size: 2.2rem;
     }
-    .testimonials
-    {
+
+    .testimonials {
         grid-template-columns: 1fr;
     }
-    .testimonial-1 img 
-    {
+
+    .testimonial-1 img {
         width: 10rem;
     }
-    .testimonial-1 
-    {
+
+    .testimonial-1 {
         width: 90%;
     }
-    .testimonial-1 p
-    {
+
+    .testimonial-1 p {
         font-size: 2rem;
     }
-    .section-6-cards
-    {
+
+    .section-6-cards {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 6rem;
     }
-    .section-6-cards-content
-    {
+
+    .section-6-cards-content {
         height: 48rem;
         width: 40rem;
     }
-    .card-1
-    {
+
+    .card-1 {
         margin-left: 5rem;
     }
-    .section-6-list
-    {
+
+    .section-6-list {
         margin-left: 7rem;
         font-size: 1.8rem;
     }
+
     .card-2::after {
         left: 27rem;
         top: 2rem;
     }
-    .section-7
-    {
+
+    .section-7 {
         grid-template-columns: 1fr;
     }
-    .section-7-content p:last-child
-    {
+
+    .section-7-content p:last-child {
         font-size: 2rem;
     }
-    .section-7-content h1
-    {
+
+    .section-7-content h1 {
         font-size: 2.3rem;
     }
+
     .section-7-content .icon-1 {
         margin-right: 44rem;
     }
+
     .section-7-content .icon-2 {
         margin-right: 44rem;
     }
+
     .section-7-content .icon-3 {
         margin-right: 44rem;
     }
+
     .section-7-content .icon-4 {
         margin-right: 44rem;
     }
-    .section-8-container
-    {
+
+    .section-8-container {
         grid-template-columns: 1fr;
     }
-    .form-img
-    {
+
+    .form-img {
         grid-row: 1;
         height: 32rem;
     }
+
     .footer-img {
         height: 20px;
         width: 150px;
     }
-    .footer-1
-    {
+
+    .footer-1 {
         font-size: 1.4rem;
     }
-    .footer-2
-    {
+
+    .footer-2 {
         font-size: 1.4rem;
     }
-    .section-6-cards
-    {
+
+    .section-6-cards {
         padding: 0 21rem;
     }
 }
-@media (Max-width: 24.437em)
-{
-    .section-7-content .icon
-    {
+
+@media (Max-width: 24.437em) {
+    .section-7-content .icon {
         margin-right: 84rem;
     }
 }
